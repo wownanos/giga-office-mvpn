@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!-- 구글 트레이닝 Specify the Action in XML: https://developer.android.com/training/basics/actionbar/adding-buttons.html#AddActions -->
+    <!-- 소개 About, 앱 및 라이센스 소개 should always be in the action overflow -->
+    <item
+        android:id="@+id/item_about"
+        android:title="@string/item_about"
+        app:showAsAction="never"/>
+    <!-- 프로파일 추가 Import, 프로파일 추가 기능 should always be in the action overflow -->
+    <item
+        android:id="@+id/item_import"
+        android:title="@string/item_import"
+        app:showAsAction="never"/>
+    <!-- 설정 Preferences, OpenVPN 관련 설정 should always be in the action overflow -->
+    <item
+        android:id="@+id/item_preferences"
+        android:title="@string/item_preferences"
+        app:showAsAction="never"/>
+    <!-- 도움말 Help, FAQ 및 문제발생시 연락처 should always be in the action overflow -->
+    <item
+        android:id="@+id/item_help"
+        android:title="@string/item_help"
+        app:showAsAction="never"/>
+
+    <!-- TODO: 삭제
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    -->
+</menu>

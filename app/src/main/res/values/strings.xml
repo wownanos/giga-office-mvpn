@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GiGA office PA3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 메뉴 타이틀 Action bar menu titles -->
+    <string name="item_about">About</string>
+    <string name="item_import">Import</string>
+    <string name="item_preferences">Preferences</string>
+    <string name="item_help">Help</string>
+
+    <!-- activity_about.xml -->
+    <string name="text_about"><bold>OpenVPN for Android</bold>\n\nThe program uses the following components:</string>
+
+    <!-- fragment_main.xml -->
+    <string name="text_iamfragment">I am fragment_main!</string>
+</resources>

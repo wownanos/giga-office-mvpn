@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings related to login -->
+    <string name="hint_phone">전화번호</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="button_connect">연결</string>
+    <string name="action_sign_in_short">연결</string>
+
+    <string name="error_invalid_phone">전화번호를 잘못 입력하셨습니다.</string>
+    <string name="error_invalid_password">비밀번호가 너무 짧습니다.</string>
+    <string name="error_incorrect_password">비밀번호를 잘못 입력하셨습니다.</string>
+    <string name="error_field_required">필수사항 입니다.</string>
+
+    <string name="button_disconnect">연결해제</string>
+</resources>

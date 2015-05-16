@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kt.gigaofficepa3" >
+
+    <!-- 액션바 추가 Setting Up the Action Bar, 구글: https://developer.android.com/training/basics/actionbar/setting-up.html -->
+    <uses-sdk android:minSdkVersion="16" />
+
+    <!-- 테마 사용 Styling the Action Bar, 구글: https://developer.android.comm/training/basics/actionbar/styling.html -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!-- 메인 액티비티 The main/home activity (it has no parent activity) -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- TODO: 구글 트레이닝 : https://developer.android.com/training/basics/actionbar/adding-buttons.html#UpNav -->
+        <!-- 메인 액티비티 자식 A child of the main activity -->
+        <!-- TODO: 자식 액티비티 추가 -->
+
+    </application>
+
+</manifest>

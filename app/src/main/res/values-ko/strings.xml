@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GiGA office PA3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 메뉴 타이틀 Action bar menu titles -->
+    <string name="item_about">소개</string>
+    <string name="item_import">프로파일 추가</string>
+    <string name="item_preferences">설정</string>
+    <string name="item_help">도움말</string>
+
+    <!-- activity_about.xml -->
+    <string name="text_about"><bold>안드로이드용 OpenVPN</bold>\n\n프로그램은 다음 구성 요소를 사용합니다. 라이선스에 대한 자세한 내용은 아래와 같습니다.</string>
+
+    <!-- fragment_main.xml -->
+    <string name="text_iamfragment">나는 fragment_main입니다.!</string>
+</resources>
